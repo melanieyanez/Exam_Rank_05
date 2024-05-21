@@ -6,7 +6,7 @@
 /*   By: melanieyanez <melanieyanez@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/21 19:43:58 by melanieyane       #+#    #+#             */
-/*   Updated: 2024/05/21 20:46:42 by melanieyane      ###   ########.fr       */
+/*   Updated: 2024/05/21 21:23:50 by melanieyane      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ class Warlock{
 	
 	public:
 	
-		Warlock(std::string Name, std::string Title);
+		Warlock(const std::string &Name, const std::string &Title);
 		~Warlock();	
 		
 		const std::string	&getName() const;
